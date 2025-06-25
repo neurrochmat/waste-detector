@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
-import 'screens/home_screen.dart';
+import 'screens/splash_screen.dart';
 
 List<CameraDescription> cameras = [];
 
@@ -28,8 +28,9 @@ class WasteDetectorApp extends StatelessWidget {
           seedColor: Colors.green,
           brightness: Brightness.light,
         ),
+        fontFamily: 'Poppins', // Gunakan font yang modern
       ),
-      home: HomeScreen(cameras: cameras),
+      home: SplashScreen(cameras: cameras),
       debugShowCheckedModeBanner: false,
     );
   }

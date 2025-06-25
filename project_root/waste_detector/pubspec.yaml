@@ -25,6 +25,9 @@ dependencies:
   
   # Permissions
   permission_handler: ^11.0.1
+  
+  # Storage
+  shared_preferences: ^2.2.2
 
 dev_dependencies:
   flutter_test:
@@ -37,3 +40,4 @@ flutter:
   assets:
     - assets/models/
     - assets/images/
+    - assets/onboarding/
