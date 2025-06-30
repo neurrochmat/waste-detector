@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
+
 import 'screens/splash_screen.dart';
 
 List<CameraDescription> cameras = [];
