@@ -3,7 +3,7 @@ import 'dart:typed_data';
 
 class GeminiService {
   final GenerativeModel _model;
-  static const String _apiKey = "AIzaSyD1YOyHm5Tqlp17ChTVZSlEU0cgRr-3LEU";
+  static const String _apiKey = "";
 
   GeminiService()
       : _model = GenerativeModel(
